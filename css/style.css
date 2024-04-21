@@ -39,11 +39,12 @@ body {
 	line-height: 1.5;
 	height: 100svh;
 	color: var(--grey);
+	background-color: lightcyan;
 }
 
 /*************** HEADER ***************/
 .header {
-	max-width: 144rem;
+	/* max-width: 144rem; */
 	padding: 4.5rem 0;
 	margin-bottom: 4.6rem;
 	display: flex;
@@ -58,9 +59,10 @@ body {
 }
 
 .grid {
-	max-width: 144rem;
+	/* max-width: 144rem; */
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	/* grid-template-columns: repeat(3, 1fr); */
+	grid-template-columns: 1.5fr 2fr 1.5fr;
 	align-items: center;
 	gap: 4rem;
 }
