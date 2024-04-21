@@ -43,7 +43,6 @@ body {
 
 /*************** HEADER ***************/
 .header {
-	/* max-width: 144rem; */
 	padding: 4.5rem 0;
 	margin-bottom: 4.6rem;
 	display: flex;
@@ -58,9 +57,7 @@ body {
 }
 
 .grid {
-	/* max-width: 144rem; */
 	display: grid;
-	/* grid-template-columns: repeat(3, 1fr); */
 	grid-template-columns: 1.5fr 2fr 1.5fr;
 	align-items: center;
 	gap: 4rem;
@@ -151,6 +148,10 @@ body {
 .button-purple:hover {
 	background-color: var(--dark-purple);
 	filter: brightness(1.3);
+}
+
+.button-purple-v {
+	color: var(--dark-purple);
 }
 
 .steps {
